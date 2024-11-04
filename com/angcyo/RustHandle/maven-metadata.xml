@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.angcyo</groupId>
+  <artifactId>RustHandle</artifactId>
+  <versioning>
+    <latest>hingin-SNAPSHOT</latest>
+    <versions>
+      <version>hingin-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20241104040649</lastUpdated>
+  </versioning>
+</metadata>

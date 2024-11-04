@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "websocket",
+    "version": "2024110401",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.java-websocket",
+          "module": "Java-WebSocket",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "websocket-2024110401.aar",
+          "url": "websocket-2024110401.aar",
+          "size": 82758,
+          "sha512": "c540f5aef36bc1ad5af84ff8496873a07d787c83485db8b5fde14f4805b98c9eea2a6f1d86560e561617657c034400282fa2a6fe4caf4ffc83341e4c2a78e3d7",
+          "sha256": "c6bb4b9081d2f4bbae4f35e60a236392bbdb10dbff7436f2df4ec2fe6c3de490",
+          "sha1": "5561e88e04fd5775ee52b63b3b395e035b7b2f47",
+          "md5": "28eb36499946cf95c6366658ac619094"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "viewmodel",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "org.java-websocket",
+          "module": "Java-WebSocket",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "websocket-2024110401.aar",
+          "url": "websocket-2024110401.aar",
+          "size": 82758,
+          "sha512": "c540f5aef36bc1ad5af84ff8496873a07d787c83485db8b5fde14f4805b98c9eea2a6f1d86560e561617657c034400282fa2a6fe4caf4ffc83341e4c2a78e3d7",
+          "sha256": "c6bb4b9081d2f4bbae4f35e60a236392bbdb10dbff7436f2df4ec2fe6c3de490",
+          "sha1": "5561e88e04fd5775ee52b63b3b395e035b7b2f47",
+          "md5": "28eb36499946cf95c6366658ac619094"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "websocket-2024110401-sources.jar",
+          "url": "websocket-2024110401-sources.jar",
+          "size": 20113,
+          "sha512": "28a5fa06146ee83782b4190610b49c62dcca3b2520908749b3897308ecc7c44f8852974a079b1fb378dda9405f6c2933ed3dd920b007f87d5bd1c9d91b49515b",
+          "sha256": "d24a1e03701c87300509ef5998be594a8b2fd848fd8407990de4e4e0904cec57",
+          "sha1": "891d237b5b1a424fd881f3da236fdfc6475cda60",
+          "md5": "3cfc0f5e9540633f3e46cc9160ccf841"
+        }
+      ]
+    }
+  ]
+}

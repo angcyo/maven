@@ -3,12 +3,13 @@
   <groupId>com.angcyo</groupId>
   <artifactId>doodle</artifactId>
   <versioning>
-    <latest>hingin-SNAPSHOT</latest>
-    <release>20241104</release>
+    <latest>2024110401</latest>
+    <release>2024110401</release>
     <versions>
       <version>20241104</version>
       <version>hingin-SNAPSHOT</version>
+      <version>2024110401</version>
     </versions>
-    <lastUpdated>20241104035505</lastUpdated>
+    <lastUpdated>20241104041513</lastUpdated>
   </versioning>
 </metadata>

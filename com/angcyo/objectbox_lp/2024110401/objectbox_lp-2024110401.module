@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "objectbox_lp",
+    "version": "2024110401",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "objectbox",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "io.objectbox",
+          "module": "objectbox-java",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.objectbox",
+          "module": "objectbox-kotlin",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objectbox_lp-2024110401.aar",
+          "url": "objectbox_lp-2024110401.aar",
+          "size": 195832,
+          "sha512": "a93eb5bfebf06ded216fb731c94ed198d456f3e8bf94559705cf33950a3b7249385fe903d367e3cad780677ebd31b2638c79a4d2fbc569c30719c456f80ee6a4",
+          "sha256": "ff48d98d5917c635fd066ec4ea5aa88ea34c81d582cd657676eca0a2f6d914b2",
+          "sha1": "9a4f4b63291feba13c8f79b7e6e88b4fa5466a03",
+          "md5": "edbd3e83ce4076c9088f499f15e91717"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.objectbox",
+          "module": "objectbox-android",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "http",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "drawable",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "objectbox",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "io.objectbox",
+          "module": "objectbox-java",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.objectbox",
+          "module": "objectbox-kotlin",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objectbox_lp-2024110401.aar",
+          "url": "objectbox_lp-2024110401.aar",
+          "size": 195832,
+          "sha512": "a93eb5bfebf06ded216fb731c94ed198d456f3e8bf94559705cf33950a3b7249385fe903d367e3cad780677ebd31b2638c79a4d2fbc569c30719c456f80ee6a4",
+          "sha256": "ff48d98d5917c635fd066ec4ea5aa88ea34c81d582cd657676eca0a2f6d914b2",
+          "sha1": "9a4f4b63291feba13c8f79b7e6e88b4fa5466a03",
+          "md5": "edbd3e83ce4076c9088f499f15e91717"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "objectbox_lp-2024110401-sources.jar",
+          "url": "objectbox_lp-2024110401-sources.jar",
+          "size": 43179,
+          "sha512": "1c900956a777016e622a654091803876250bf63ebc7d140a35264b5520f750b4b2374fdb512823ee3c949be14fc3be55ed8360020696de9896f939884701de53",
+          "sha256": "923af8f79f197fcb1462fe19f6d7bb105c15e6dbfe0d6aa447782e9047870518",
+          "sha1": "1163efdd328ddf9f6a5cceff3454493a90883416",
+          "md5": "f0f96f851710792d4c19801f03143de8"
+        }
+      ]
+    }
+  ]
+}

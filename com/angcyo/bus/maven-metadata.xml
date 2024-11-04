@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.angcyo</groupId>
+  <artifactId>bus</artifactId>
+  <versioning>
+    <latest>2024110401</latest>
+    <release>2024110401</release>
+    <versions>
+      <version>hingin-SNAPSHOT</version>
+      <version>2024110401</version>
+    </versions>
+    <lastUpdated>20241104041514</lastUpdated>
+  </versioning>
+</metadata>

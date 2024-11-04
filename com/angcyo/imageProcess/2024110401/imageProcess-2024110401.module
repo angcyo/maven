@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "imageProcess",
+    "version": "2024110401",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imageProcess-2024110401.aar",
+          "url": "imageProcess-2024110401.aar",
+          "size": 553361,
+          "sha512": "c64f90fd6eba9fa2d51f2758e2f5c99d0926b5e5dbaa3b3071acaeb90470eca031dca7e96e207872c6e9f46cc157fbe96b1fa69de01d47cd7060c2405b651a52",
+          "sha256": "32d3b6ab65ba81503e1d8f27f2ff58b04e1451af3409cb81472556bef97425e1",
+          "sha1": "366b036e9d7c8781ad92468153d0897416e90636",
+          "md5": "bd31210517997d348717647f5b915d98"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "imageProcess-2024110401.aar",
+          "url": "imageProcess-2024110401.aar",
+          "size": 553361,
+          "sha512": "c64f90fd6eba9fa2d51f2758e2f5c99d0926b5e5dbaa3b3071acaeb90470eca031dca7e96e207872c6e9f46cc157fbe96b1fa69de01d47cd7060c2405b651a52",
+          "sha256": "32d3b6ab65ba81503e1d8f27f2ff58b04e1451af3409cb81472556bef97425e1",
+          "sha1": "366b036e9d7c8781ad92468153d0897416e90636",
+          "md5": "bd31210517997d348717647f5b915d98"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "imageProcess-2024110401-sources.jar",
+          "url": "imageProcess-2024110401-sources.jar",
+          "size": 3029,
+          "sha512": "234a4471f1e94d0489b92857dab74286633331df7d00c803b87ad70201a5578477b24b1834535c79dc03b70efe748ed29b990ee375efb488962ba9328557f383",
+          "sha256": "d61ef8c42032856be5e3dadf405b8fd53293753419d9a9a44cf7790383ec176c",
+          "sha1": "ab714c272a9e53ae8a6e2a7ebc38d66874513e71",
+          "md5": "ebfdbd5af45135335b0286f789f46ec3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "core",
+    "version": "2024110401",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "fragment",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "coroutine",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "http",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dialog",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "viewmodel",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "settingscompat",
+          "version": {
+            "requires": "1.1.4.1"
+          },
+          "excludes": [
+            {
+              "group": "androidx.appcompat",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-2024110401.aar",
+          "url": "core-2024110401.aar",
+          "size": 1133535,
+          "sha512": "ba80138ca5fddfea0eb06ef743820aeae45e4977511e756ef33f9cbea6d70c061912e553216d153a70a1992db5bb41caa235ddb3e52e802289c41b476b001b1b",
+          "sha256": "85e87f269ddd8c5bcde5c8ea80b00bcbb66a299ff747bbff1d1bb2c37809e828",
+          "sha1": "ce48cd5e1192415ec512fb97d56b48a9f0657883",
+          "md5": "fc40703ad690003cd1680a185c7b0377"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.lsposed.hiddenapibypass",
+          "module": "hiddenapibypass",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "fragment",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "coroutine",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "http",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dialog",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "viewmodel",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "settingscompat",
+          "version": {
+            "requires": "1.1.4.1"
+          },
+          "excludes": [
+            {
+              "group": "androidx.appcompat",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-2024110401.aar",
+          "url": "core-2024110401.aar",
+          "size": 1133535,
+          "sha512": "ba80138ca5fddfea0eb06ef743820aeae45e4977511e756ef33f9cbea6d70c061912e553216d153a70a1992db5bb41caa235ddb3e52e802289c41b476b001b1b",
+          "sha256": "85e87f269ddd8c5bcde5c8ea80b00bcbb66a299ff747bbff1d1bb2c37809e828",
+          "sha1": "ce48cd5e1192415ec512fb97d56b48a9f0657883",
+          "md5": "fc40703ad690003cd1680a185c7b0377"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-2024110401-sources.jar",
+          "url": "core-2024110401-sources.jar",
+          "size": 266253,
+          "sha512": "0dece6138d9de33bf797177de5f9adfce747bde51f0407f1860097232d3a148ada6db21d346b31938187a463b165e4ffaf657694020dc0e731a256f88b08c387",
+          "sha256": "3c9dc95927041fa36d82efab2055f29828c154033e720ff57b3923bdc3897319",
+          "sha1": "50a6a0bfc54b54a1c3d04ba2840bc2a211df9642",
+          "md5": "4486cacd4ecce6f1a7c9a14c2e9404ed"
+        }
+      ]
+    }
+  ]
+}

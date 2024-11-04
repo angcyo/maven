@@ -3,32 +3,32 @@
   <groupId>com.angcyo</groupId>
   <artifactId>download</artifactId>
   <versioning>
-    <lastUpdated>20241104035454</lastUpdated>
+    <lastUpdated>20241104040639</lastUpdated>
     <snapshot>
-      <timestamp>20241104.035454</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20241104.040639</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>hingin-20241104.035454-1</value>
-        <updated>20241104035454</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>hingin-20241104.035454-1</value>
-        <updated>20241104035454</updated>
+        <value>hingin-20241104.040639-2</value>
+        <updated>20241104040639</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>hingin-20241104.035454-1</value>
-        <updated>20241104035454</updated>
+        <value>hingin-20241104.040639-2</value>
+        <updated>20241104040639</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>hingin-20241104.040639-2</value>
+        <updated>20241104040639</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>hingin-20241104.035454-1</value>
-        <updated>20241104035454</updated>
+        <value>hingin-20241104.040639-2</value>
+        <updated>20241104040639</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

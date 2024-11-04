@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "coroutine",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coroutine-hingin-SNAPSHOT.aar",
+          "url": "coroutine-hingin-SNAPSHOT.aar",
+          "size": 40326,
+          "sha512": "6eea3e787259d1ed290ba2df28065c265999777b5e0963d497351f01366a73c1d91200ff90b8c4f3bd0d49c1f472a02a415d03bba98f57bdba5924a64c7b6b9b",
+          "sha256": "12bde8729bd300a7834e57cff34326a5238fded3ca81b9798df0695e2081f707",
+          "sha1": "81e03e7a93249f5e95d15d6b14623d24777e73b3",
+          "md5": "ddf30c75224a6442d9785fba891e7d7f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coroutine-hingin-SNAPSHOT.aar",
+          "url": "coroutine-hingin-SNAPSHOT.aar",
+          "size": 40326,
+          "sha512": "6eea3e787259d1ed290ba2df28065c265999777b5e0963d497351f01366a73c1d91200ff90b8c4f3bd0d49c1f472a02a415d03bba98f57bdba5924a64c7b6b9b",
+          "sha256": "12bde8729bd300a7834e57cff34326a5238fded3ca81b9798df0695e2081f707",
+          "sha1": "81e03e7a93249f5e95d15d6b14623d24777e73b3",
+          "md5": "ddf30c75224a6442d9785fba891e7d7f"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "coroutine-hingin-SNAPSHOT-sources.jar",
+          "url": "coroutine-hingin-SNAPSHOT-sources.jar",
+          "size": 7811,
+          "sha512": "ce1f7253ccf57b77f842d9c7797afb46802b4b0d51dd4cb4074b720fd67e48719e8f61bd6da366bc0d0ca0b715b937d3f6cb4e3db1ea52397e136d817636b8df",
+          "sha256": "3a57a53dd0aa372f5f93c45a05c905bc5d7f4b516b8d62cc061adbbebd9ec087",
+          "sha1": "7a5c6c1a7a00be88dccffef2c01f08f4782cb0f3",
+          "md5": "8c5acf2dfe063ff70ea16f189ebbd9e7"
+        }
+      ]
+    }
+  ]
+}

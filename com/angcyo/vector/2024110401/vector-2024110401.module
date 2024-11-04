@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "vector",
+    "version": "2024110401",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "sharp",
+          "version": {
+            "requires": "1.1.3.28"
+          }
+        },
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "Android-Kabeja",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vector-2024110401.aar",
+          "url": "vector-2024110401.aar",
+          "size": 107955,
+          "sha512": "de03bad3755f4c89703fe5f4a2f2f59867e4aaa0fc10f28ae81027af79fb73a43c52a846caa9947b3fe788191406af2ae5d905929007187774cfa3f7771b9353",
+          "sha256": "3905eef601ea23f1c948526e130e93f2d781d78165aa4b4c835531b685221269",
+          "sha1": "03300254c0203f85e997d54a5e9ef04999863a41",
+          "md5": "a28fbe396d598c765c57d61803d5f20e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "drawable",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "sharp",
+          "version": {
+            "requires": "1.1.3.28"
+          }
+        },
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "Android-Kabeja",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vector-2024110401.aar",
+          "url": "vector-2024110401.aar",
+          "size": 107955,
+          "sha512": "de03bad3755f4c89703fe5f4a2f2f59867e4aaa0fc10f28ae81027af79fb73a43c52a846caa9947b3fe788191406af2ae5d905929007187774cfa3f7771b9353",
+          "sha256": "3905eef601ea23f1c948526e130e93f2d781d78165aa4b4c835531b685221269",
+          "sha1": "03300254c0203f85e997d54a5e9ef04999863a41",
+          "md5": "a28fbe396d598c765c57d61803d5f20e"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "vector-2024110401-sources.jar",
+          "url": "vector-2024110401-sources.jar",
+          "size": 66839,
+          "sha512": "d25674255c2ae5e8d06a3993be1fd4f2f010ad14914c2187a38cf9fff0fbad702d55e0d6a08e071d2e44a0dd609c635faa1f7f0a71dddb1fec4a896e5ce436b5",
+          "sha256": "cff8fd40c4b37f41b7311bd9dd621de52c36dfa7e1654efcc127cb42d098f848",
+          "sha1": "47269358e4c19ec8d1915b07fc68e53fc357905b",
+          "md5": "f0d86242e482b34efe030451034fa3e7"
+        }
+      ]
+    }
+  ]
+}

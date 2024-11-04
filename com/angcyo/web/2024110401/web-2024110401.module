@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "web",
+    "version": "2024110401",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "web-2024110401.aar",
+          "url": "web-2024110401.aar",
+          "size": 198102,
+          "sha512": "e7d7a9142b0585174a56da9bf38d2e0266bfdf28638c5fd79fef65177d0db7111dfa15f8e0a4cb818040694579ad1c3a905e47f9f584e70bfe6fa900393f56c4",
+          "sha256": "d813d7070002ba15c7efe932d333011c95105eb868525f1326ad87deddb6d668",
+          "sha1": "90c2d247a348972f59ac3d358b92cc677b267740",
+          "md5": "02836f44df98e2c70fc9ef89ca10e692"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "download",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "picker",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "web-2024110401.aar",
+          "url": "web-2024110401.aar",
+          "size": 198102,
+          "sha512": "e7d7a9142b0585174a56da9bf38d2e0266bfdf28638c5fd79fef65177d0db7111dfa15f8e0a4cb818040694579ad1c3a905e47f9f584e70bfe6fa900393f56c4",
+          "sha256": "d813d7070002ba15c7efe932d333011c95105eb868525f1326ad87deddb6d668",
+          "sha1": "90c2d247a348972f59ac3d358b92cc677b267740",
+          "md5": "02836f44df98e2c70fc9ef89ca10e692"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "web-2024110401-sources.jar",
+          "url": "web-2024110401-sources.jar",
+          "size": 54237,
+          "sha512": "5ddd6dee88fc209e1aa5ef606904531c72bfd1e29bac1ff9045e1277cd4ef1635a0128e9968e6abf65b9306f75eb25b296b61675f278cfe2a82652109fa4ae56",
+          "sha256": "28ad031eab03a2f3a1e7523d2728f74d45562574251bd5a2717473b2b874c1da",
+          "sha1": "bd1d2216c46284b852aba629c829388d855f6a22",
+          "md5": "2c979a937f7fd22be2e5d38bf28072f0"
+        }
+      ]
+    }
+  ]
+}

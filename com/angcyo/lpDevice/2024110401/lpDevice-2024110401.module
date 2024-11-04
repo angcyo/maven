@@ -1,0 +1,271 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "lpDevice",
+    "version": "2024110401",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "fsc",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "opencv",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "bitmapHandle",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "RustHandle",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "imageProcess",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "objectbox_lp",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "vector",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "jxl",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lpDevice-2024110401.aar",
+          "url": "lpDevice-2024110401.aar",
+          "size": 13039804,
+          "sha512": "f502e7c8eeb19b00cd17033364949276ddd9569d0f810cb8f0f8f057b115a943f0d0251299e0bebf99132bb1b7cad8188f7cb910759d6f333eb754bca33a2188",
+          "sha256": "31b15d181068931ffb06d386469a25e561427efb8ab9127c55ae0a28116b7256",
+          "sha1": "6e36b93aa3edb18fed2ee5d28881c176ea131cab",
+          "md5": "82b44b613353801a2ff9ee5118c252c8"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.24"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "coroutine",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "glide",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "pager",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "fsc",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "opencv",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "bitmapHandle",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "RustHandle",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "imageProcess",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "objectbox_lp",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "vector",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "jxl",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lpDevice-2024110401.aar",
+          "url": "lpDevice-2024110401.aar",
+          "size": 13039804,
+          "sha512": "f502e7c8eeb19b00cd17033364949276ddd9569d0f810cb8f0f8f057b115a943f0d0251299e0bebf99132bb1b7cad8188f7cb910759d6f333eb754bca33a2188",
+          "sha256": "31b15d181068931ffb06d386469a25e561427efb8ab9127c55ae0a28116b7256",
+          "sha1": "6e36b93aa3edb18fed2ee5d28881c176ea131cab",
+          "md5": "82b44b613353801a2ff9ee5118c252c8"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "lpDevice-2024110401-sources.jar",
+          "url": "lpDevice-2024110401-sources.jar",
+          "size": 269167,
+          "sha512": "e4c16cc990b60186a749590be66a608e54efdd0a90a2deff7278ce244ea7ddbf1a8183024516d90e9418086f6a8453972e0976d20bf43538f1fa1b8041b31a64",
+          "sha256": "44c964e5c82fc6dc454770d7fac317ec063b26f3823821bc434b704fa2f602d0",
+          "sha1": "ed98994c63b7fe65f7157f668cd9219b7255f030",
+          "md5": "891be8d19eef55c8b74428dc2e0e7de6"
+        }
+      ]
+    }
+  ]
+}

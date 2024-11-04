@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "dialog2",
+    "version": "2024110401",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.WaytoInc",
+          "module": "Android-PickerView",
+          "version": {
+            "requires": "4.1.0.10"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "CalendarView",
+          "version": {
+            "requires": "3.7.1.42"
+          }
+        },
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "ColorPicker",
+          "version": {
+            "requires": "1.1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dialog2-2024110401.aar",
+          "url": "dialog2-2024110401.aar",
+          "size": 212306,
+          "sha512": "1b4623be19e1c1c3746427062c3745c943d7de8cb722a752a2f387433839d9fa6341551f30aad074e54fcf8222b1e759bd8b0bfb91044ad59a19934eded7f14d",
+          "sha256": "35360376657a2f4e5dcd2dfa159ebf09b4873964f55e22b606347da4b3720f99",
+          "sha1": "380dcbe225d329ad37f9cbe25a9096481174275b",
+          "md5": "c1bb0f35ca7ea9a00dba8acc6296abc0"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "2024110401"
+          }
+        },
+        {
+          "group": "com.github.WaytoInc",
+          "module": "Android-PickerView",
+          "version": {
+            "requires": "4.1.0.10"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "CalendarView",
+          "version": {
+            "requires": "3.7.1.42"
+          }
+        },
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "ColorPicker",
+          "version": {
+            "requires": "1.1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dialog2-2024110401.aar",
+          "url": "dialog2-2024110401.aar",
+          "size": 212306,
+          "sha512": "1b4623be19e1c1c3746427062c3745c943d7de8cb722a752a2f387433839d9fa6341551f30aad074e54fcf8222b1e759bd8b0bfb91044ad59a19934eded7f14d",
+          "sha256": "35360376657a2f4e5dcd2dfa159ebf09b4873964f55e22b606347da4b3720f99",
+          "sha1": "380dcbe225d329ad37f9cbe25a9096481174275b",
+          "md5": "c1bb0f35ca7ea9a00dba8acc6296abc0"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "dialog2-2024110401-sources.jar",
+          "url": "dialog2-2024110401-sources.jar",
+          "size": 72527,
+          "sha512": "b0883e6a6625fe26f0a7c529cd6f5251c2b9c8e3a7ffab7fc1c59260574f7ab6aabceb9712a90665f8c0eb4e4881152abdb670ea0477d3ca79708b625f925b08",
+          "sha256": "266a286b9abf7f27bc13586927feb284e033861ae1001266e8bcc2b9b239664d",
+          "sha1": "e1f9909a4a02e5990ee24211f3464b35f9c3d753",
+          "md5": "810df9f527950fe35d930b6b05ec1d20"
+        }
+      ]
+    }
+  ]
+}
