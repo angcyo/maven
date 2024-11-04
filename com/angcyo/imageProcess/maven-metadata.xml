@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.angcyo</groupId>
+  <artifactId>imageProcess</artifactId>
+  <versioning>
+    <latest>hingin-SNAPSHOT</latest>
+    <release>241104</release>
+    <versions>
+      <version>241104</version>
+      <version>hingin-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20241104035809</lastUpdated>
+  </versioning>
+</metadata>

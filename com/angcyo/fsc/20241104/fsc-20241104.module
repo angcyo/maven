@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "fsc",
+    "version": "20241104",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "bluetooth",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fsc-20241104.aar",
+          "url": "fsc-20241104.aar",
+          "size": 1095843,
+          "sha512": "fc32e3c49ae55e35ae9a9cd69f0707df7728d39e171296d81f80a70fc647922aeb180e5f5a4e957da1ff782add9badccb9007033ea3b8ca171fcc55f605487f9",
+          "sha256": "78fcdfaf4b389aed4794f688a8d8314e70cae92d566c4bf71d16d8f7454247a0",
+          "sha1": "13b26d8bcdedace6d3b3689fd4ab0248f697439c",
+          "md5": "dc007dd7e1dbe66e63cafae045ccc0df"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "coroutine",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "bluetooth",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fsc-20241104.aar",
+          "url": "fsc-20241104.aar",
+          "size": 1095843,
+          "sha512": "fc32e3c49ae55e35ae9a9cd69f0707df7728d39e171296d81f80a70fc647922aeb180e5f5a4e957da1ff782add9badccb9007033ea3b8ca171fcc55f605487f9",
+          "sha256": "78fcdfaf4b389aed4794f688a8d8314e70cae92d566c4bf71d16d8f7454247a0",
+          "sha1": "13b26d8bcdedace6d3b3689fd4ab0248f697439c",
+          "md5": "dc007dd7e1dbe66e63cafae045ccc0df"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "fsc-20241104-sources.jar",
+          "url": "fsc-20241104-sources.jar",
+          "size": 294703,
+          "sha512": "882b5bc080c98ef6aea9c0d092b11c616e7096b57e2231a68910412639ee77e2a3f3e36925326d74523023f03497c23987c2fa7c07a9de6d99415e2dd632f52b",
+          "sha256": "ff91c5dbbdaf92978723355653eb8ce516dc8a84cffb90c543fe54bdb80246a3",
+          "sha1": "952aafe61f6d62d314dd666397ec4e0386cdf026",
+          "md5": "dfc568a0f7b1899cd2b5178927af493d"
+        }
+      ]
+    }
+  ]
+}

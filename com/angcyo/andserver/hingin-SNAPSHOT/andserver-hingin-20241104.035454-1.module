@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "andserver",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.yanzhenjie.andserver",
+          "module": "api",
+          "version": {
+            "requires": "2.1.12"
+          }
+        },
+        {
+          "group": "javax.activation",
+          "module": "javax.activation-api",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "andserver-hingin-SNAPSHOT.aar",
+          "url": "andserver-hingin-SNAPSHOT.aar",
+          "size": 115822,
+          "sha512": "2aa8edb2c5f10c4580cec7673737c9cdeb8c3caca8c7a90af81b1ffe89e47c471d81c3aa23ccfece9972974f87ecb2886a4124c3d6d215b41a9ec6a56ad19052",
+          "sha256": "8fcd680631987f6fae2defc9947691d46cb8f09558abe3210286128e3f055637",
+          "sha1": "a10cad0feff40abe285233290258eb4c1009c838",
+          "md5": "2e9eb69c1d35369ae72c5f8e810d7b27"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "http",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "fragment",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.yanzhenjie.andserver",
+          "module": "api",
+          "version": {
+            "requires": "2.1.12"
+          }
+        },
+        {
+          "group": "javax.activation",
+          "module": "javax.activation-api",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "andserver-hingin-SNAPSHOT.aar",
+          "url": "andserver-hingin-SNAPSHOT.aar",
+          "size": 115822,
+          "sha512": "2aa8edb2c5f10c4580cec7673737c9cdeb8c3caca8c7a90af81b1ffe89e47c471d81c3aa23ccfece9972974f87ecb2886a4124c3d6d215b41a9ec6a56ad19052",
+          "sha256": "8fcd680631987f6fae2defc9947691d46cb8f09558abe3210286128e3f055637",
+          "sha1": "a10cad0feff40abe285233290258eb4c1009c838",
+          "md5": "2e9eb69c1d35369ae72c5f8e810d7b27"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "andserver-hingin-SNAPSHOT-sources.jar",
+          "url": "andserver-hingin-SNAPSHOT-sources.jar",
+          "size": 34247,
+          "sha512": "be01af4b3f51fae0756e75e8adacf1f76e2e493a78939aff40879837e1761da662a0982afabc0004066ab0e006b59375eaeab78b9340a54c4434e8ddbf85902e",
+          "sha256": "9a74b971d1ae0b15401b3f15b467e9d7900c4073d64fbe5cd378204615d3e996",
+          "sha1": "84ceb53960026618a5e0609c01fc635e56791464",
+          "md5": "e51e927ab3e1eebf870b5b7d298f3f0f"
+        }
+      ]
+    }
+  ]
+}

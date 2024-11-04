@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "bluetooth",
+    "version": "20241104",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.Jasonchenlijian",
+          "module": "FastBle",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bluetooth-20241104.aar",
+          "url": "bluetooth-20241104.aar",
+          "size": 71572,
+          "sha512": "6605682e2772074ac165b6db6cc37c2bb3be2d82b887ed67325af14cad38bff967b0c3f9f9ed685451e1827c66c9a9b452ca3c5c8ac39bc1f1afbc40707a3419",
+          "sha256": "a7fe4edf309e9b13b754c855a4bdd50f290c00b05e35886d96f4a04e1b82660a",
+          "sha1": "ffdb874b7677093c5888f396ab9d16837962fc43",
+          "md5": "725efeaf5fff127e5d216b28132f675e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.github.Jasonchenlijian",
+          "module": "FastBle",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bluetooth-20241104.aar",
+          "url": "bluetooth-20241104.aar",
+          "size": 71572,
+          "sha512": "6605682e2772074ac165b6db6cc37c2bb3be2d82b887ed67325af14cad38bff967b0c3f9f9ed685451e1827c66c9a9b452ca3c5c8ac39bc1f1afbc40707a3419",
+          "sha256": "a7fe4edf309e9b13b754c855a4bdd50f290c00b05e35886d96f4a04e1b82660a",
+          "sha1": "ffdb874b7677093c5888f396ab9d16837962fc43",
+          "md5": "725efeaf5fff127e5d216b28132f675e"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "bluetooth-20241104-sources.jar",
+          "url": "bluetooth-20241104-sources.jar",
+          "size": 12485,
+          "sha512": "91ce90e9ffcd5399db40d26b8a8129d2072f8f81b7606ce08bfe5eb208ca860515a5d29caeab649d11bd34ed8af553a5f379a8cceeb95642229a6d596c888b0d",
+          "sha256": "577eba773d3d377d74c1cff9d95da2de025f272daf7e15a4c2f3997f86b8a077",
+          "sha1": "c1abc1b5f6a0e3647e6a578ec15719ee0a27d410",
+          "md5": "28c969448c695fe9fdf96ee341fc4bec"
+        }
+      ]
+    }
+  ]
+}

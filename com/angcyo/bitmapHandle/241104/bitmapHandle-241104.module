@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "bitmapHandle",
+    "version": "241104",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bitmapHandle-241104.aar",
+          "url": "bitmapHandle-241104.aar",
+          "size": 1270239,
+          "sha512": "caa058937299ae76cdcf0a21b1edb17827857ba07ad4da54f07879b99b3167d3ac18bdb02de7cdfd201026848e07241482697cf84e33470bffb9b45fc0b1eaa6",
+          "sha256": "601b7501a1eb68a799a934c9bd5a7784add790155ceaaf8421af6ced0246c402",
+          "sha1": "e8bd07070fcd4842d365b03f19720d578f17676f",
+          "md5": "5d636115e311bfc822ec198dcf71ff87"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bitmapHandle-241104.aar",
+          "url": "bitmapHandle-241104.aar",
+          "size": 1270239,
+          "sha512": "caa058937299ae76cdcf0a21b1edb17827857ba07ad4da54f07879b99b3167d3ac18bdb02de7cdfd201026848e07241482697cf84e33470bffb9b45fc0b1eaa6",
+          "sha256": "601b7501a1eb68a799a934c9bd5a7784add790155ceaaf8421af6ced0246c402",
+          "sha1": "e8bd07070fcd4842d365b03f19720d578f17676f",
+          "md5": "5d636115e311bfc822ec198dcf71ff87"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "bitmapHandle-241104-sources.jar",
+          "url": "bitmapHandle-241104-sources.jar",
+          "size": 7563,
+          "sha512": "c5bcd59520fe83da61197dfbf2e294fdfdaad769d29f8cd9d830f08cd88f4781311d46f181c129dbae6a7f6c4be3bc4604bffa7411c215acc4bfb1e8234a84b6",
+          "sha256": "80b2d96bb9a8bf4eb83cf6760333481adf3ac58bfd5011ce350a16b832d0024d",
+          "sha1": "ee7e62058238e8b0217d9285e64dc371f77df055",
+          "md5": "4ac5a0106e68c0f64c010698cf83c6a6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "qrcode",
+    "version": "20241104",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.angcyo",
+          "module": "QrCodeZxingZbar",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qrcode-20241104.aar",
+          "url": "qrcode-20241104.aar",
+          "size": 121872,
+          "sha512": "4910668f360a6d963f468ad14571bf0ade3084a290e70c74dc07d3dfe464a01f35170bcd1af459214640dca1201c01d963590341b2ccce932bb8e72b5bde2fd0",
+          "sha256": "00fb49c5132e7345c4132476b7c5b1d262e40dfe9a262480e2bedfe416ec2c5f",
+          "sha1": "03d65631463cc616f7fc2225676258214f67456e",
+          "md5": "5d74d6f2d3cf955f18c6b191e0517c62"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "fragment",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "QrCodeZxingZbar",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qrcode-20241104.aar",
+          "url": "qrcode-20241104.aar",
+          "size": 121872,
+          "sha512": "4910668f360a6d963f468ad14571bf0ade3084a290e70c74dc07d3dfe464a01f35170bcd1af459214640dca1201c01d963590341b2ccce932bb8e72b5bde2fd0",
+          "sha256": "00fb49c5132e7345c4132476b7c5b1d262e40dfe9a262480e2bedfe416ec2c5f",
+          "sha1": "03d65631463cc616f7fc2225676258214f67456e",
+          "md5": "5d74d6f2d3cf955f18c6b191e0517c62"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "qrcode-20241104-sources.jar",
+          "url": "qrcode-20241104-sources.jar",
+          "size": 37181,
+          "sha512": "bdbc0f19de77f102a927206385c9e66b0507e890eff08800c88449e50eeed66906e45959f458f856ca0a3ccf3dfb990301547fb40840a109cb11f28fcfe03921",
+          "sha256": "6d3be314d6850419819ccf6e1e744c179f78d9b1341fe5b3b062c445af4baee0",
+          "sha1": "cd82a63eba0959e5ffca7e04b4aa48068e76c3d6",
+          "md5": "f32936bdd7f5a2a8301fb7f80c20ae66"
+        }
+      ]
+    }
+  ]
+}

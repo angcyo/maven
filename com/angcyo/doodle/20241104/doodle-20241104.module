@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "doodle",
+    "version": "20241104",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "doodle-20241104.aar",
+          "url": "doodle-20241104.aar",
+          "size": 282759,
+          "sha512": "ecf20ccc9bf5a0d359d26ec7e5b6dfcc1abf793fb3f7527e8fc5fe998ede86f369ad00e869b13a4d43256b05a62843fc0ff441f5e649912053d88b2cc5a50c72",
+          "sha256": "4c4d7c9f1a6031744160b194bc2bb93c267e5234a31d638be0c083e8b8bf430f",
+          "sha1": "4ef61d15faed5c6899919d9af4101cf3c4a4ad94",
+          "md5": "86ef99118b6d35390fabcac9f4adb5de"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "widget",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dialog",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "image",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "doodle-20241104.aar",
+          "url": "doodle-20241104.aar",
+          "size": 282759,
+          "sha512": "ecf20ccc9bf5a0d359d26ec7e5b6dfcc1abf793fb3f7527e8fc5fe998ede86f369ad00e869b13a4d43256b05a62843fc0ff441f5e649912053d88b2cc5a50c72",
+          "sha256": "4c4d7c9f1a6031744160b194bc2bb93c267e5234a31d638be0c083e8b8bf430f",
+          "sha1": "4ef61d15faed5c6899919d9af4101cf3c4a4ad94",
+          "md5": "86ef99118b6d35390fabcac9f4adb5de"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "doodle-20241104-sources.jar",
+          "url": "doodle-20241104-sources.jar",
+          "size": 105305,
+          "sha512": "fd6b54c2d84fd2961dd89170bec6a1c6d907a1342a269042bc3401242a1b1878596176be9066bd298c4f5abe268478c0b2be43fdba231d2cbe34c362098c0287",
+          "sha256": "b6ea2bce8be5316e2b62940c2a9a0c4bdef47c689d24f563854711952d05b0ab",
+          "sha1": "853f94fa8f4abff8469a19ced727c8c13c9868b1",
+          "md5": "69415e9d22a00e28503c9f0c045e9ea7"
+        }
+      ]
+    }
+  ]
+}

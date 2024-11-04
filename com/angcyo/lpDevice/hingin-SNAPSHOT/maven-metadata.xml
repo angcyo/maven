@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.angcyo</groupId>
+  <artifactId>lpDevice</artifactId>
+  <versioning>
+    <lastUpdated>20241104035454</lastUpdated>
+    <snapshot>
+      <timestamp>20241104.035454</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>hingin-20241104.035454-1</value>
+        <updated>20241104035454</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>hingin-20241104.035454-1</value>
+        <updated>20241104035454</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>hingin-20241104.035454-1</value>
+        <updated>20241104035454</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>hingin-20241104.035454-1</value>
+        <updated>20241104035454</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>hingin-SNAPSHOT</version>
+</metadata>

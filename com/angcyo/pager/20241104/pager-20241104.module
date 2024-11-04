@@ -1,0 +1,215 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "pager",
+    "version": "20241104",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "transition",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "download",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "media",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "image",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "glide",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "component",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pager-20241104.aar",
+          "url": "pager-20241104.aar",
+          "size": 113497,
+          "sha512": "efe8487f0d35a2b38bc3e1a8f1b66ce6789d907802059dbf5467bea2337db33214b104011bb6cdf6586fadf3e8d9e830ae813ca0ff0be3739362c39519b13bc3",
+          "sha256": "d6374517e1de6b8feb4d8fe0994391fd3ba032c30e793ae1f4cf24a70b39ed89",
+          "sha1": "8a734ab9d536c5babc02c35dd5b5d4d2f9da36d4",
+          "md5": "15f70d8b6334dd9ce371d7e04c78f5a9"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.24"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "transition",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "download",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "media",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "image",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "glide",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "component",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pager-20241104.aar",
+          "url": "pager-20241104.aar",
+          "size": 113497,
+          "sha512": "efe8487f0d35a2b38bc3e1a8f1b66ce6789d907802059dbf5467bea2337db33214b104011bb6cdf6586fadf3e8d9e830ae813ca0ff0be3739362c39519b13bc3",
+          "sha256": "d6374517e1de6b8feb4d8fe0994391fd3ba032c30e793ae1f4cf24a70b39ed89",
+          "sha1": "8a734ab9d536c5babc02c35dd5b5d4d2f9da36d4",
+          "md5": "15f70d8b6334dd9ce371d7e04c78f5a9"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "pager-20241104-sources.jar",
+          "url": "pager-20241104-sources.jar",
+          "size": 27409,
+          "sha512": "bd69c07e7a364eb915e7a448e2a3e9bdfbf25156aea07780edbd7ad516b706b347a3f6fc2c8ef721ceea38a3cafc7a9dc6755a6b3bb23611a5fc120457d83bb0",
+          "sha256": "e7ae2ee8e275f233198e3c64513eb6be1c32a76b61e8d8cf13e35a28f54a0bc2",
+          "sha1": "095e531938ac06094aa9d00edb77e997a9697091",
+          "md5": "4fc35e9ea918b0f3b22961e12d41e5f8"
+        }
+      ]
+    }
+  ]
+}

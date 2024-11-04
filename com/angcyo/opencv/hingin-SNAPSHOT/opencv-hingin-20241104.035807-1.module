@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "opencv",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opencv-hingin-SNAPSHOT.aar",
+          "url": "opencv-hingin-SNAPSHOT.aar",
+          "size": 13256053,
+          "sha512": "7d7fa00ac081b354b8b71409bb4790dfa491c95f1d8f28737cc1375bed880f061c1432548137d632b24746bb6284a21597b8f472ee2833663a6e826734388300",
+          "sha256": "4f13ecb10bb67aac14641912bc529dd57fa0d64ea4d6b7fa94f5a3722493edfc",
+          "sha1": "6dc7b8f5a858a90dbe734498fd97c48f571ce282",
+          "md5": "87bc90f02a64fd5c182ca1d5293a5d5a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opencv-hingin-SNAPSHOT.aar",
+          "url": "opencv-hingin-SNAPSHOT.aar",
+          "size": 13256053,
+          "sha512": "7d7fa00ac081b354b8b71409bb4790dfa491c95f1d8f28737cc1375bed880f061c1432548137d632b24746bb6284a21597b8f472ee2833663a6e826734388300",
+          "sha256": "4f13ecb10bb67aac14641912bc529dd57fa0d64ea4d6b7fa94f5a3722493edfc",
+          "sha1": "6dc7b8f5a858a90dbe734498fd97c48f571ce282",
+          "md5": "87bc90f02a64fd5c182ca1d5293a5d5a"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "opencv-hingin-SNAPSHOT-sources.jar",
+          "url": "opencv-hingin-SNAPSHOT-sources.jar",
+          "size": 9397,
+          "sha512": "4ebe34c5b6745eb611751eeb522b9da03056d6a914f57afe389eb8aa9447e5dd62b5ec02563486d33632338d8293f7e5de9bf35836bf91ec1301a0df8d7dbb0f",
+          "sha256": "8b2e1fb88462b049b4c5e63e0105aeea57a5a8eb7a07e329ba0b82d9dbb78612",
+          "sha1": "13f1ecb80f9f713b6b1e12e50a44d91bc79a9cde",
+          "md5": "66a40553586b0220c0a86a3315677543"
+        }
+      ]
+    }
+  ]
+}

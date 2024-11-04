@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "CrashSight",
+    "version": "20241104",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "CrashSight-20241104.aar",
+          "url": "CrashSight-20241104.aar",
+          "size": 1500074,
+          "sha512": "07f7d969d67a35c9bbeffb98e6ea367cbd6dc441ee0bf4d3aca2a8df532c97f5e91491d40ab41c02d93047925a7892a13d794ba5ddba3742310716c26870ebad",
+          "sha256": "818f2bc5114b58b3ff0759ac934598919c7ae30506886ca51c20d4686efb0010",
+          "sha1": "325d3c85d745ee4a08ca1a85ef93bfa5a5b35ab5",
+          "md5": "418fed688dfb74aa164f6f1933c6ad6c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "20241104"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "CrashSight-20241104.aar",
+          "url": "CrashSight-20241104.aar",
+          "size": 1500074,
+          "sha512": "07f7d969d67a35c9bbeffb98e6ea367cbd6dc441ee0bf4d3aca2a8df532c97f5e91491d40ab41c02d93047925a7892a13d794ba5ddba3742310716c26870ebad",
+          "sha256": "818f2bc5114b58b3ff0759ac934598919c7ae30506886ca51c20d4686efb0010",
+          "sha1": "325d3c85d745ee4a08ca1a85ef93bfa5a5b35ab5",
+          "md5": "418fed688dfb74aa164f6f1933c6ad6c"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "CrashSight-20241104-sources.jar",
+          "url": "CrashSight-20241104-sources.jar",
+          "size": 2321,
+          "sha512": "b79211485bfd9878e8803f072e39f5bda76649d1eef5f120acdc4c196db97e5fe6d65834cde1deb032be4af91c19c095c9ab29671540afb526c73055a76daafe",
+          "sha256": "1a40df7091d16af97e2a03a2b0f7600f3c535bafd726356fc9608aceb7986a2a",
+          "sha1": "5ed8c000558369e173026460173f3b75c4f14002",
+          "md5": "49d31ba12db2941c7bc5482ec7999d97"
+        }
+      ]
+    }
+  ]
+}
